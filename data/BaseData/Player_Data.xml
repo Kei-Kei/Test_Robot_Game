@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<data>
+	<!--Player 000***********************************************************-->
+	<Player id="0">
+		<!--*****属性データ*****-->
+		<Name>			X-ENE01	</Name>		<!--名称-->
+		<!--*****パーツデータ*****-->
+		
+		<!--脚部-->
+		<Parts id="0">
+			<ID>			3	</ID>		<!--パーツ番号-->
+			<Parent>		-1	</Parent>	<!--パーツの親-->
+			<ParentLR>		0	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			-1	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			1	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		128	</R><G>		128	</G><B>		160	</B></Color>
+			<Color><R>		180	</R><G>		180	</G><B>		180	</B></Color>
+			<Color><R>		230	</R><G>		170	</G><B>		0	</B></Color>
+		</Parts>
+		
+		<!--胴体-->
+		<Parts id="1">
+			<ID>			5	</ID>		<!--パーツ番号-->
+			<Parent>		0	</Parent>	<!--パーツの親-->
+			<ParentLR>		0	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			-1	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			0	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		128	</R><G>		128	</G><B>		160	</B></Color>
+			<Color><R>		180	</R><G>		180	</G><B>		180	</B></Color>
+			<Color><R>		230	</R><G>		170	</G><B>		0	</B></Color>
+		</Parts>
+		
+		<!--ブースター-->
+		<Parts id="2">
+			<ID>			4	</ID>		<!--パーツ番号-->
+			<Parent>		0	</Parent>	<!--パーツの親-->
+			<ParentLR>		0	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			0	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			3	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		128	</R><G>		128	</G><B>		160	</B></Color>
+			<Color><R>		180	</R><G>		180	</G><B>		180	</B></Color>
+			<Color><R>		230	</R><G>		170	</G><B>		0	</B></Color>
+		</Parts>
+		
+		<!--頭部-->
+		<Parts id="3">
+			<ID>			7	</ID>		<!--パーツ番号-->
+			<Parent>		1	</Parent>	<!--パーツの親-->
+			<ParentLR>		0	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			0	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			2	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		128	</R><G>		128	</G><B>		160	</B></Color>
+			<Color><R>		180	</R><G>		180	</G><B>		180	</B></Color>
+			<Color><R>		230	</R><G>		170	</G><B>		0	</B></Color>
+		</Parts>
+				
+		<!--腕部-->
+		<Parts id="4">
+			<ID>			6	</ID>		<!--パーツ番号-->
+			<Parent>		1	</Parent>	<!--パーツの親-->
+			<ParentLR>		0	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			1	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			5	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		128	</R><G>		128	</G><B>		160	</B></Color>
+			<Color><R>		180	</R><G>		180	</G><B>		180	</B></Color>
+			<Color><R>		230	</R><G>		170	</G><B>		0	</B></Color>
+		</Parts>
+		
+		<!--右腕武装-->
+		<Parts id="5">
+			<ID>			8	</ID>		<!--パーツ番号-->
+			<Parent>		4	</Parent>	<!--パーツの親-->
+			<ParentLR>		0	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			0	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			4	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		50	</R><G>		50	</G><B>		50	</B></Color>
+			<Color><R>		80	</R><G>		80	</G><B>		80	</B></Color>
+			<Color><R>		100	</R><G>		190	</G><B>		255	</B></Color>
+		</Parts>
+		
+		<!--左腕武装-->
+		<Parts id="6">
+			<ID>			9	</ID>		<!--パーツ番号-->
+			<Parent>		4	</Parent>	<!--パーツの親-->
+			<ParentLR>		1	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			0	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			4	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		50	</R><G>		50	</G><B>		50	</B></Color>
+			<Color><R>		80	</R><G>		80	</G><B>		80	</B></Color>
+			<Color><R>		100	</R><G>		190	</G><B>		255	</B></Color>
+		</Parts>
+		
+		//背面武装
+		<Parts id="7">
+			<ID>			13	</ID>		<!--パーツ番号-->
+			<Parent>		1	</Parent>	<!--パーツの親-->
+			<ParentLR>		0	</ParentLR>	<!--接続する親の階層(主に左右区別用)-->
+			<Joint>			2	</Joint>	<!--接続する親のジョイント番号-->
+			<Layer>			5	</Layer>	<!--パーツの表示される階層-->
+			<!--パーツの色-->
+			<Color><R>		20	</R><G>		20	</G><B>		20	</B></Color>
+			<Color><R>		80	</R><G>		80	</G><B>		80	</B></Color>
+			<Color><R>		130	</R><G>		130	</G><B>		130	</B></Color>
+		</Parts>
+	</Player>
+</data>

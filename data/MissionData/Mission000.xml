@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="Shift_JIS"?>
+<data>
+	<Mission>
+		<!--===ミッション概要===-->
+		<Mis_No>	0	</Mis_No>
+		<Map_No>	0	</Map_No>	<!--戦闘に用いるマップ-->
+		<Name>戦闘テスト１</Name>
+		<Text>
+			要塞最深部にいる同機種の人型機動兵器を撃破してください。
+			途中にいる浮遊砲台のレーザーに注意してください。
+		</Text>
+		<!--===評価(上からSABC)===-->
+		<Rank_TimeOrder>	1	</Rank_TimeOrder>	<!--ランクの時間並び順(昇順:0、降順:1)-->
+		<Rank_HPOrder>		0	</Rank_HPOrder>		<!--ランクのＨＰ並び順(昇順:0、降順:1)-->
+		<Rank>
+			<Time>			30000	</Time>
+			<HP>			90.0	</HP>
+		</Rank>
+		<Rank>
+			<Time>			60000	</Time>
+			<HP>			70.0	</HP>
+		</Rank>
+		<Rank>
+			<Time>			120000	</Time>
+			<HP>			40.0	</HP>
+		</Rank>
+		<Rank>
+			<Time>			180000	</Time>
+			<HP>			20.0	</HP>
+		</Rank>
+		
+		<!--===自分の情報===-->
+		<My_X>				500	</My_X>				<!--自機の開始位置-->
+		<My_Y>				500	</My_Y>				<!--自機の開始位置-->
+		
+		<!--===敵グループ===-->
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	1		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	0		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	5000	</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	700		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	0		</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	5400	</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	700		</Area_Cen_Y>
+			<Area_S_Range>	600		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	1000	</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			0		</Enemy>
+		</Group>
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	0		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	100		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	2800	</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	650		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	1000	</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	2750	</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	650		</Area_Cen_Y>
+			<Area_S_Range>	400		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	600		</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			1		</Enemy>
+		</Group>
+		
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	0		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	100		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	3400	</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	750		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	1000	</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	3400	</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	750		</Area_Cen_Y>
+			<Area_S_Range>	400		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	600		</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			1		</Enemy>
+		</Group>
+		
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	0		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	100		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	4400	</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	750		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	1000	</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	4400	</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	650		</Area_Cen_Y>
+			<Area_S_Range>	400		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	600		</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			1		</Enemy>
+		</Group>
+		
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	0		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	100		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	1400	</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	500		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	1000	</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	1400	</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	500		</Area_Cen_Y>
+			<Area_S_Range>	400		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	1000		</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			2		</Enemy>
+		</Group>
+		
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	0		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	100		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	1500	</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	700		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	1000	</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	1500	</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	700		</Area_Cen_Y>
+			<Area_S_Range>	400		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	1000		</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			2		</Enemy>
+		</Group>
+		
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	0		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	100		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	1700	</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	600		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	1000	</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	1700	</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	600		</Area_Cen_Y>
+			<Area_S_Range>	400		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	1000		</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			2		</Enemy>
+		</Group>
+	</Mission>
+	
+	<!--===AI_000===-->
+	<AI>
+		<!--===敵の種類===-->
+		<Type>		3	</Type>
+		
+		<!--===敵の行動に関するパラメーター===-->
+		<B_Type>
+			<Battle_Type>	0		</Battle_Type>	<!--敵行動タイプ（自機と一定距離を保つ:0、固定領域:1）-->
+			<Battle_Cen_X>	0		</Battle_Cen_X>	<!--戦闘時行動中心位置（領域中心からの相対位置。Battle_Type:1のときのみ有効）-->
+			<Battle_Cen_Y>	0		</Battle_Cen_Y>
+			<Battle_Range>	200		</Battle_Range>	<!--戦闘時行動半径（Battle_Type:0の場合自機を中心とした距離）-->
+			<Battle_Frac>	50		</Battle_Frac>	<!--戦闘時行動半径のずれ-->
+			<Attack_Per>	1.00	</Attack_Per>	<!--攻撃頻度-->
+			<Pary_Per>		0.50	</Pary_Per>		<!--回避頻度-->
+		</B_Type>
+	</AI>
+
+	<!--===AI_001===-->
+	<AI>
+		<!--===敵の種類===-->
+		<Type>		4	</Type>
+		
+		<!--===敵の行動に関するパラメーター===-->
+		<B_Type>
+			<Battle_Type>	1		</Battle_Type>	<!--敵行動タイプ（自機と一定距離を保つ:0、固定領域:1）-->
+			<Battle_Cen_X>	0		</Battle_Cen_X>	<!--戦闘時行動中心位置（領域中心からの相対位置。Battle_Type:1のときのみ有効）-->
+			<Battle_Cen_Y>	0		</Battle_Cen_Y>
+			<Battle_Range>	50		</Battle_Range>	<!--戦闘時行動半径（Battle_Type:0の場合自機を中心とした距離）-->
+			<Battle_Frac>	50		</Battle_Frac>	<!--戦闘時行動半径のずれ-->
+			<Attack_Per>	1.00	</Attack_Per>	<!--攻撃頻度-->
+			<Pary_Per>		0.00	</Pary_Per>		<!--回避頻度-->
+		</B_Type>
+	</AI>
+	
+	<!--===AI_002===-->
+	<AI>
+		<!--===敵の種類===-->
+		<Type>		5	</Type>
+		
+		<!--===敵の行動に関するパラメーター===-->
+		<B_Type>
+			<Battle_Type>	0		</Battle_Type>	<!--敵行動タイプ（自機と一定距離を保つ:0、固定領域:1）-->
+			<Battle_Cen_X>	0		</Battle_Cen_X>	<!--戦闘時行動中心位置（領域中心からの相対位置。Battle_Type:1のときのみ有効）-->
+			<Battle_Cen_Y>	0		</Battle_Cen_Y>
+			<Battle_Range>	150		</Battle_Range>	<!--戦闘時行動半径（Battle_Type:0の場合自機を中心とした距離）-->
+			<Battle_Frac>	100		</Battle_Frac>	<!--戦闘時行動半径のずれ-->
+			<Attack_Per>	0.20	</Attack_Per>	<!--攻撃頻度-->
+			<Pary_Per>		0.40	</Pary_Per>		<!--回避頻度-->
+		</B_Type>
+	</AI>
+	
+</data>

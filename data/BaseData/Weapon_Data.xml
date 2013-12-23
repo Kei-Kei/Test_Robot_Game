@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<data>
+	<!--Weapon 000***********************************************************-->
+	<!--２発動時３連射ミサイル-->
+	<Weapon id="0">
+		<!--*****基本データ*****-->
+		<Category>	MISSILE		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			1	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		800	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			120	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+		
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			6	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			20	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		1	</Cycle_Ammo>		<!--1サイクルで消費する弾数(１発射パターンごと)-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		45	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		10	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-120</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		120	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+		
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		4	</Speed>	<!--初速-->
+			<Pos_X>		+2	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		+2	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		4	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--発射方向-->
+			<Speed>		4	</Speed>	<!--初速-->
+			<Pos_X>		+2	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		-2	</Pos_Y>	<!--発射位置-->
+			<Timing>	5	</Timing>	<!--発射タイミング-->
+			<Type>		4	</Type>		<!--発射弾-->
+		</Blast>
+
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+		
+	</Weapon>
+	
+	<!--Weapon 001***********************************************************-->
+	<!--マシンガン-->
+	<Weapon id="1">
+		<!--*****基本データ*****-->
+		<Category>	MACHINE-GUN		</Category>		<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			1	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		300	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			90	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			50	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			20	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		1	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		15	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		2	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-95</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		95	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+		
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	4	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--発射方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		5	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		1	</Type>		<!--発射弾-->
+		</Blast>
+
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+		
+		<!--***銃口のエフェクト***-->
+		<Muzzle>
+			<Drec>		0	</Drec>		<!--出現方向-->
+			<Pos_X>		0	</Pos_X>	<!--出現位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--出現位置-->
+			<Timing>	1	</Timing>	<!--出現タイミング-->
+			<Type>		1	</Type>		<!--エフェクトタイプ-->
+		</Muzzle>
+		
+	</Weapon>
+	
+	<!--Weapon 002***********************************************************-->
+	<!--ショットガン-->
+	<Weapon id="2">
+		<!--*****基本データ*****-->
+		<Category>	SHOTGUN		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			1	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		300	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			40	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			1	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			80	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		1	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		5	</Reload_Time>		<!--リロード時間-->
+
+		<!--*****タイムライン*****-->
+		<Cycle_time>		3	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-180</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		180	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+				
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		3	</Copy>		<!--複製回数-->
+			<Accuracy>	10	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--発射方向-->
+			<Speed>		25	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		2	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		4	</Copy>		<!--複製回数-->
+			<Accuracy>	10	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--発射方向-->
+			<Speed>		25	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	2	</Timing>	<!--発射タイミング-->
+			<Type>		2	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		3	</Copy>		<!--複製回数-->
+			<Accuracy>	10	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--発射方向-->
+			<Speed>		25	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	3	</Timing>	<!--発射タイミング-->
+			<Type>		2	</Type>		<!--発射弾-->
+		</Blast>
+		
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+		
+		<!--***銃口のエフェクト***-->
+		<Muzzle>
+			<Drec>		0	</Drec>		<!--出現方向-->
+			<Pos_X>		0	</Pos_X>	<!--出現位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--出現位置-->
+			<Timing>	2	</Timing>	<!--出現タイミング-->
+			<Type>		1	</Type>		<!--エフェクトタイプ-->
+		</Muzzle>
+	</Weapon>
+
+	<!--Weapon 003***********************************************************-->
+	<!--１０連ホーミングレーザー-->
+	<Weapon id="3">
+		<!--*****基本データ*****-->
+		<Category>	HORMING-LASER		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			1	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		400	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			120	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+		
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			10	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			10	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		10	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		180	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		2	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-180</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		180	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+		
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		10	</Copy>		<!--複製回数-->
+			<Accuracy>	120	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		50	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		0	</Type>		<!--発射弾-->
+		</Blast>
+
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+
+	</Weapon>
+
+	<!--Weapon 004***********************************************************-->
+	<!--実剣-->
+	<Weapon id="4">
+		<!--*****基本データ*****-->
+		<Category>	SWORD		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			0	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		120	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			360	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				1	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+		
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			1	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			-1	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		1	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		30	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		10	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+		<!--*****攻撃時*****-->
+		<Action_Attack>
+			<Action>
+				<Type>		0	</Type>
+				<StartTime>	4	</StartTime>
+				<MaxTime>	5	</MaxTime>
+			</Action>
+		</Action_Attack>
+		
+		<!--***サウンド***-->
+		<Sound>
+			<Timing>	1	</Timing>
+			<Volume>	0.3	</Volume>
+			<Type>		1	</Type>
+		</Sound>
+	</Weapon>
+
+	<!--Weapon 005***********************************************************-->
+	<!--ノーマルレーザー-->
+	<Weapon id="5">
+		<!--*****基本データ*****-->
+		<Category>	NOMAL-LASER		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			1	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		350	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			15	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+		
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			10	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			10	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		10	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		140	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		60	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-15</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		15	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+		
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		10	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		50	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	5	</Timing>	<!--発射タイミング-->
+			<D_Timing>	5	</D_Timing>	<!--コピー時のタイミングの遅延-->
+			<Type>		3	</Type>		<!--発射弾-->
+		</Blast>
+
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+
+	</Weapon>
+	
+	<!--Weapon 006***********************************************************-->
+	<!--レーザーライフル-->
+	<Weapon id="6">
+		<!--*****基本データ*****-->
+		<Category>	LASER-RIFLE		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			1	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		350	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			30	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+		
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			1	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			70	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		1	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		8	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		1	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-180</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		180	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+		
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		80	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		3	</Type>		<!--発射弾-->
+		</Blast>
+
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+
+	</Weapon>
+
+	<!--Weapon 007***********************************************************-->
+	<!--5連グレネード-->
+	<Weapon id="7">
+		<!--*****基本データ*****-->
+		<Category>	GRANADE		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			1	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			10	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		400	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			20	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+		
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			6	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			10	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		1	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		30	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		20	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-45</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		30	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+		
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		20	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		5	</Type>		<!--発射弾-->
+		</Blast>
+
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+
+	</Weapon>
+
+	<!--Weapon 008***********************************************************-->
+	<!--花火-->
+	<Weapon id="8">
+		<!--*****基本データ*****-->
+		<Category>	FIREWORK		</Category>			<!--武器種別-->
+	
+		<!--*****火器管制*****-->
+		<Aiming>			0	</Aiming>			<!--照準　0:マニュアル　1:セミオート　2:フルオート-->
+		<FSS_Flag>			0	</FSS_Flag>			<!--偏差射撃　ON　OFF-->
+		<Rock_Time>			0	</Rock_Time>		<!--ロックオン時間-->
+		<Rock_Range>		500	</Rock_Range>		<!--ロックオン可能距離-->
+		<Rock_Drec>			60	</Rock_Drec>		<!--ロックオン可能角度-->
+		<Shot_Pattern>		0	</Shot_Pattern>		<!--射撃　マニュアル　セミオート-->
+		<Auto_shot>			0	</Auto_shot>		<!--自律攻撃　無し　連動　自動-->
+		<Multi_Rock_Num>	0	</Multi_Rock_Num>	<!--同時ロックオン数-->
+		
+		<!--*****武器タイプ*****-->
+		<Type>				0	</Type>				<!--武器タイプ(0:射撃武器、1:格闘武器)-->
+		
+		<!--*****弾薬管理*****-->
+		<MagAmmo>			1	</MagAmmo>			<!--弾倉容量-->
+		<MaxMag>			50	</MaxMag>			<!--弾倉数-->
+		<Cycle_Ammo>		1	</Cycle_Ammo>		<!--1サイクルで消費する弾数-->
+		<Cycle_Ene>			0	</Cycle_Ene>		<!--1サイクルで消費するエネルギー-->
+		<Reload_Time>		50	</Reload_Time>		<!--リロード時間-->
+		
+		<!--*****タイムライン*****-->
+		<Cycle_time>		2	</Cycle_time>		<!--１サイクルの時間-->
+		
+		<!--*****砲塔設定*****-->
+		<Movable_Min>		-45</Movable_Min>		<!--最小稼動範囲(-360～360)-->
+		<Movable_Max>		30	</Movable_Max>		<!--最大可動範囲(-360～360)-->
+		
+		<!--***発射パターン***-->
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	0	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	20	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	40	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	60	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	80	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	100	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	120	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	140	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	160	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	180	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	200	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	220	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	240	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	260	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	280	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	300	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	320	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		6	</Type>		<!--発射弾-->
+		</Blast>
+		<Blast>
+			<Copy>		1	</Copy>		<!--複製回数-->
+			<Accuracy>	0	</Accuracy>	<!--発射精度-->
+			<T_Drec>	340	</T_Drec>	<!--噴射方向-->
+			<Drec>		0	</Drec>		<!--射出方向-->
+			<Speed>		30	</Speed>	<!--初速-->
+			<Pos_X>		0	</Pos_X>	<!--発射位置-->
+			<Pos_Y>		0	</Pos_Y>	<!--発射位置-->
+			<Timing>	1	</Timing>	<!--発射タイミング-->
+			<Type>		7	</Type>		<!--発射弾-->
+		</Blast>
+
+		<!--*****アクション*****-->
+		<!--*****武器選択時*****-->
+		<Action_Attach>
+		</Action_Attach>
+		<!--*****武器解除時*****-->
+		<Action_Remove>
+		</Action_Remove>
+
+	</Weapon>
+
+</data>

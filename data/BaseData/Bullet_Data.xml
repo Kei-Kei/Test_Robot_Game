@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<data>
+	<!--Bullet 000***********************************************************-->
+	<Bullet id = "0">
+		<Name>			Horming Laser</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				150	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		0	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		0	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		0	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		4	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1.0	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		-1	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0.5	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		1	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		1	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		30	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		5	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		15	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		0	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			10.0	</Thrust>			<!--推力-->
+		<Thrust_Start>		20	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		-1	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.20</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		40	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	2	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	8	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+	
+	<!--Bullet 001***********************************************************-->
+	<Bullet id = "1">
+		<Name>				Basic Ammo</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				30	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		0	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		0	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		0	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		1	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1.5	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		-1	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		0	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		0	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		0	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		0	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		0	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		0	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			0	</Thrust>			<!--推力-->
+		<Thrust_Start>		0	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		-1	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.00</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		12	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	1	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	0	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+	
+	<!--Bullet 002***********************************************************-->
+	<Bullet id = "2">
+		<Name>				Basic Ammo2</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				20	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		0	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		0	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		0	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		1	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		-1	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		0	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		0	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		0	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		0	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		0	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		0	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			0	</Thrust>			<!--推力-->
+		<Thrust_Start>		0	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		-1	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.00</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		20	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	4	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	0	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+	
+	<!--Bullet 003***********************************************************-->
+	<Bullet id = "3">
+		<Name>				Basic Laser</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				150	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		0	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		0	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		0	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		4	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1.0	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		-1	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0.5	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		0	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		0	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		0	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		0	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		0	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		0	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			0.0	</Thrust>			<!--推力-->
+		<Thrust_Start>		0	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		-1	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.00</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		60	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	2	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	12	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+	
+	<!--Bullet 004***********************************************************-->
+	<Bullet id = "4">
+		<Name>			Basic Missile</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				150	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		0	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		0	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		0	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		2	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1.0	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		2	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0.5	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		0	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		1	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		20	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		0	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		15	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		0	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			5.0	</Thrust>			<!--推力-->
+		<Thrust_Start>		1	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		-1	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.20</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		40	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	3	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	8	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+
+	<!--Bullet 005***********************************************************-->
+	<Bullet id = "5">
+		<Name>			Basic Granade</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				300	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		20	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		30	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		2	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		2	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1.5	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		2	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0.5	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		0	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		0	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		0	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		0	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		0	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		0	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			12.0	</Thrust>			<!--推力-->
+		<Thrust_Start>		0	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		-1	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.50</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		40	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	5	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	0	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+
+	<!--Bullet 006***********************************************************-->
+	<Bullet id = "6">
+		<Name>				Firework_1</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				20	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		0	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		0	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		0	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		4	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1.0	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		4	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0.3	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		0	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		0	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		0	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		0	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		0	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		1	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0.5	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	2.0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			3.0	</Thrust>			<!--推力-->
+		<Thrust_Start>		65	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		67	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.08</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		90	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	2	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	5	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+	
+	<!--Bullet 007***********************************************************-->
+	<Bullet id = "7">
+		<Name>				Firework_2</Name>		<!--名称-->
+		<!--命中系-->
+		<Power>				20	</Power>			<!--威力-->
+		<Penet_Flag>		0	</Penet_Flag>		<!--貫通するかどうか-->
+		<Penet_Num>			0	</Penet_Num>		<!--貫通可能回数-->
+		<Explode_Power>		0	</Explode_Power>	<!--爆風威力-->
+		<Explode_Rad>		0	</Explode_Rad>		<!--爆風半径-->
+		<Proximity_Flag>	0	</Proximity_Flag>	<!--近接信管　ON　OFF-->
+		<Proximity_Rad>		0	</Proximity_Rad>	<!--近接信管の半径-->
+		<Explode_Hit>		2	</Explode_Hit>		<!--命中時の爆発画像-->
+		<Explode_Hit_Size>	1.0	</Explode_Hit_Size>	<!--命中時の爆発画像のサイズ-->
+		<Explode_Erase>		-1	</Explode_Erase>	<!--消滅時の爆発画像-->
+		<Explode_Erase_Size>0.5	</Explode_Erase_Size><!--消滅時の爆発画像のサイズ-->
+		<Sound_Hit>			-1	</Sound_Hit>		<!--命中時の音-->
+		<Sound_Hit_Size>	0.0	</Sound_Hit_Size>	<!--命中時の音の大きさ-->
+		<!--移動系-->
+		<WallSlide>			0	</WallSlide>		<!--壁滑り　ON　OFF-->
+		<WallReflect>		0	</WallReflect>		<!--壁反射　ON　OFF-->
+		<Horming_Flag>		0	</Horming_Flag>		<!--誘導　ON　OFF-->
+		<Horming_Power>		0	</Horming_Power>	<!--誘導の強さ-->
+		<Horming_Start>		0	</Horming_Start>	<!--誘導を開始する時間-->
+		<Horming_End>		0	</Horming_End>		<!--誘導が終了する時間-->
+		<Gravity_Flag>		1	</Gravity_Flag>		<!--重力の影響　ON　OFF-->
+		<Gravity_Accel>		0.5	</Gravity_Accel>	<!--落下加速度-->
+		<Gravity_MaxSpeed>	2.0	</Gravity_MaxSpeed>	<!--最高落下速度-->
+		<Thrust>			2.5	</Thrust>			<!--推力-->
+		<Thrust_Start>		66	</Thrust_Start>		<!--噴射開始時間-->
+		<Thrust_End>		68	</Thrust_End>		<!--噴射終了時間-->
+		<AirRegist>			0.08</AirRegist>		<!--減速係数（空気抵抗などによるもの）-->
+		<Breaking>			0.00</Breaking>			<!--制動力-->
+		<Bullet_Life>		91	</Bullet_Life>		<!--弾の持続時間-->
+		<Bullet_Graphic>	1	</Bullet_Graphic>	<!--弾のグラフィック-->
+		<Bullet_Slave_Num>	5	</Bullet_Slave_Num>	<!--弾の子の数-->
+	</Bullet>
+
+</data>

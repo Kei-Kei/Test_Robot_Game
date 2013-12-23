@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="Shift_JIS"?>
+<data>
+	<Mission>
+		<!--===ミッション概要===-->
+		<Map_No>	2	</Map_No>	<!--戦闘に用いるマップ-->
+		<Name>対人型機動兵器戦闘テスト</Name>
+		<Text>
+			同機種の人型機動兵器と戦ってもらいます。
+			なるべく早く、低損害で撃破してください。
+		</Text>
+		<!--===評価(上からSABC)===-->
+		<Rank_TimeOrder>	1	</Rank_TimeOrder>	<!--ランクの時間並び順(昇順:0、降順:1)-->
+		<Rank_HPOrder>		0	</Rank_HPOrder>		<!--ランクのＨＰ並び順(昇順:0、降順:1)-->
+		<Rank>
+			<Time>			30000	</Time>
+			<HP>			90.0	</HP>
+		</Rank>
+		<Rank>
+			<Time>			60000	</Time>
+			<HP>			70.0	</HP>
+		</Rank>
+		<Rank>
+			<Time>			120000	</Time>
+			<HP>			40.0	</HP>
+		</Rank>
+		<Rank>
+			<Time>			180000	</Time>
+			<HP>			20.0	</HP>
+		</Rank>
+		
+		<!--===自分の情報===-->
+		<My_X>				300	</My_X>				<!--自機の開始位置-->
+		<My_Y>				300	</My_Y>				<!--自機の開始位置-->
+		
+		<!--===敵グループ===-->
+		<Group>
+			<!--===ミッションにおける役割===-->
+			<MissionTarget>	1		</MissionTarget><!--ミッションの撃破目標かどうか(false:0、true:1)-->
+			<!--===敵の出現に関するパラメーター===-->
+			<Start_Time>	0		</Start_Time>	<!--敵出現時間（ミリ秒）-->
+			<Start_Type>	1		</Start_Type>	<!--敵出現位置タイプ（自機の近く:0、固定位置:1）-->
+			<Start_Pos_X>	400		</Start_Pos_X>	<!--敵出現位置（自機との相対位置、固定位置）-->
+			<Start_Pos_Y>	400		</Start_Pos_Y>
+			<Start_Dist_X>	0		</Start_Dist_X>	<!--出現位置のずれの範囲（出現時にランダム変化）-->
+			<Start_Dist_Y>	0		</Start_Dist_Y>
+			<Regene_Time>	0		</Regene_Time>	<!--復活までの時間（ミリ秒）-->
+			<Regene_Count>	1		</Regene_Count>	<!--出現回数 -->
+			
+			<!--===敵の領域に関するパラメーター===-->
+			<Area_Cen_X>	300		</Area_Cen_X>	<!--領域中心位置-->
+			<Area_Cen_Y>	300		</Area_Cen_Y>
+			<Area_S_Range>	600		</Area_S_Range>	<!--索敵範囲-->
+			<Area_H_Range>	600		</Area_H_Range>	<!--追跡範囲-->
+			
+			<!--===出現させる敵のデータ===-->
+			<Enemy>			0		</Enemy>
+		</Group>
+	</Mission>
+	
+	<!--===AI_000===-->
+	<AI>
+		<!--===敵の種類===-->
+		<Type>		3	</Type>
+		
+		<!--===敵の行動に関するパラメーター===-->
+		<B_Type>
+			<Battle_Type>	0		</Battle_Type>	<!--敵行動タイプ（自機と一定距離を保つ:0、固定領域:1）-->
+			<Battle_Cen_X>	0		</Battle_Cen_X>	<!--戦闘時行動中心位置（Battle_Type:1のときのみ有効）-->
+			<Battle_Cen_Y>	0		</Battle_Cen_Y>
+			<Battle_Range>	70		</Battle_Range>	<!--戦闘時行動半径（Battle_Type:0の場合自機を中心とした距離）-->
+			<Battle_Frac>	50		</Battle_Frac>	<!--戦闘時行動半径のずれ-->
+			<Attack_Per>	1.00	</Attack_Per>	<!--攻撃頻度-->
+		</B_Type>
+	</AI>
+
+	<!--===AI_000===-->
+	<AI>
+		<!--===敵の種類===-->
+		<Type>		0	</Type>
+		
+		<!--===敵の行動に関するパラメーター===-->
+		<B_Type>
+			<Battle_Type>	0		</Battle_Type>	<!--敵行動タイプ（自機と一定距離を保つ:0、固定領域:1）-->
+			<Battle_Cen_X>	0		</Battle_Cen_X>	<!--戦闘時行動中心位置（Battle_Type:1のときのみ有効）-->
+			<Battle_Cen_Y>	0		</Battle_Cen_Y>
+			<Battle_Range>	50		</Battle_Range>	<!--戦闘時行動半径（Battle_Type:0の場合自機を中心とした距離）-->
+			<Battle_Frac>	50		</Battle_Frac>	<!--戦闘時行動半径のずれ-->
+			<Attack_Per>	0.50	</Attack_Per>	<!--攻撃頻度-->
+		</B_Type>
+	</AI>
+	
+</data>

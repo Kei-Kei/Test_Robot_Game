@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<data>
+	<!--Map 000***********************************************************-->
+	<Map id="0">
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	5	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	7	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	10	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	10	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	11	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	10	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3800	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	3800	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	5000	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	4000	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	9	</Skin></Tip>
+		<Tip><Pos_X>	4000	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	11	</Skin></Tip>
+		<Tip><Pos_X>	4200	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	4400	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	4600	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	4800	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	4200	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	4400	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	4600	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	4800	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	5000	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	9	</Skin></Tip>
+		<Tip><Pos_X>	5200	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	9	</Skin></Tip>
+		<Tip><Pos_X>	5200	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	5400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	5600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	5800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	6000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	6	</Skin></Tip>
+		<Tip><Pos_X>	5400	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	5600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	5800	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	6000	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	8	</Skin></Tip>
+		<Tip><Pos_X>	6000	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	6000	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	6000	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3800	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3800	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4000	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5200	</Pos_X><Pos_Y>	100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5600	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5800	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6000	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6200	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6200	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6200	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6200	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4000	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4200	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4400	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4600	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4800	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5000	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5200	</Pos_X><Pos_Y>	1100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5400	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5000	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5600	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	5800	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6000	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	6200	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	4000	</Pos_X><Pos_Y>	100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	100	</Pos_Y><Skin>	13	</Skin></Tip>
+
+		<Wall><S_X>	400	</S_X><S_Y>	400	</S_Y><G_X>	1600	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	400	</S_X><S_Y>	600	</S_Y><G_X>	400	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	1000	</S_X><S_Y>	600	</S_Y><G_X>	400	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	1400	</S_X><S_Y>	800	</S_Y><G_X>	1000	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	2400	</S_X><S_Y>	800	</S_Y><G_X>	1400	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	1600	</S_X><S_Y>	400	</S_Y><G_X>	2000	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	2000	</S_X><S_Y>	600	</S_Y><G_X>	3000	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	2600	</S_X><S_Y>	700	</S_Y><G_X>	2400	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	3000	</S_X><S_Y>	700	</S_Y><G_X>	2600	</G_X><G_Y>	700	</G_Y></Wall>
+		<Wall><S_X>	3000	</S_X><S_Y>	600	</S_Y><G_X>	3200	</G_X><G_Y>	700	</G_Y></Wall>
+		<Wall><S_X>	3200	</S_X><S_Y>	700	</S_Y><G_X>	4000	</G_X><G_Y>	700	</G_Y></Wall>
+		<Wall><S_X>	3200	</S_X><S_Y>	800	</S_Y><G_X>	3000	</G_X><G_Y>	700	</G_Y></Wall>
+		<Wall><S_X>	4000	</S_X><S_Y>	800	</S_Y><G_X>	3200	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	5400	</S_X><S_Y>	1000	</S_Y><G_X>	5000	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	4000	</S_X><S_Y>	700	</S_Y><G_X>	4200	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	4200	</S_X><S_Y>	700	</S_Y><G_X>	4000	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	4600	</S_X><S_Y>	700	</S_Y><G_X>	4200	</G_X><G_Y>	700	</G_Y></Wall>
+		<Wall><S_X>	4800	</S_X><S_Y>	800	</S_Y><G_X>	4600	</G_X><G_Y>	700	</G_Y></Wall>
+		<Wall><S_X>	5000	</S_X><S_Y>	800	</S_Y><G_X>	4800	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	4200	</S_X><S_Y>	600	</S_Y><G_X>	5000	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	5000	</S_X><S_Y>	600	</S_Y><G_X>	5400	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	5400	</S_X><S_Y>	400	</S_Y><G_X>	6000	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	6000	</S_X><S_Y>	1000	</S_Y><G_X>	5400	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	6000	</S_X><S_Y>	400	</S_Y><G_X>	6000	</G_X><G_Y>	1000	</G_Y></Wall>
+		
+	</Map>
+	
+	<!--Map 001***********************************************************-->
+	<Map id="1">
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	5	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	500	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	17	</Skin></Tip>
+		<Tip><Pos_X>	500	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	15	</Skin></Tip>
+		<Tip><Pos_X>	700	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	18	</Skin></Tip>
+		<Tip><Pos_X>	900	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	19	</Skin></Tip>
+		<Tip><Pos_X>	1100	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	16	</Skin></Tip>
+		<Tip><Pos_X>	1100	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	14	</Skin></Tip>
+		<Tip><Pos_X>	700	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	20	</Skin></Tip>
+		<Tip><Pos_X>	900	</Pos_X><Pos_Y>	500	</Pos_Y><Skin>	21	</Skin></Tip>
+		<Tip><Pos_X>	700	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	900	</Pos_X><Pos_Y>	700	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	8	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	7	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	6	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	1400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	13	</Skin></Tip>
+
+		<Wall><S_X>	400	</S_X><S_Y>	1200	</S_Y><G_X>	400	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	800	</S_X><S_Y>	600	</S_Y><G_X>	500	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	500	</S_X><S_Y>	600	</S_Y><G_X>	500	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	500	</S_X><S_Y>	1000	</S_Y><G_X>	800	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	800	</S_X><S_Y>	1000	</S_Y><G_X>	800	</G_X><G_Y>	1100	</G_Y></Wall>
+		<Wall><S_X>	800	</S_X><S_Y>	1100	</S_Y><G_X>	1000	</G_X><G_Y>	1100	</G_Y></Wall>
+		<Wall><S_X>	1000	</S_X><S_Y>	1100	</S_Y><G_X>	1000	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	1000	</S_X><S_Y>	1000	</S_Y><G_X>	1300	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	1300	</S_X><S_Y>	1000	</S_Y><G_X>	1300	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	1300	</S_X><S_Y>	600	</S_Y><G_X>	1000	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	1000	</S_X><S_Y>	500	</S_Y><G_X>	800	</G_X><G_Y>	500	</G_Y></Wall>
+		<Wall><S_X>	800	</S_X><S_Y>	500	</S_Y><G_X>	800	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	1000	</S_X><S_Y>	600	</S_Y><G_X>	1000	</G_X><G_Y>	500	</G_Y></Wall>
+		<Wall><S_X>	400	</S_X><S_Y>	400	</S_Y><G_X>	1400	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	1400	</S_X><S_Y>	1200	</S_Y><G_X>	400	</G_X><G_Y>	1200	</G_Y></Wall>
+		<Wall><S_X>	1400	</S_X><S_Y>	400	</S_Y><G_X>	1400	</G_X><G_Y>	1200	</G_Y></Wall>
+
+	</Map>
+
+	<!--Map 003***********************************************************-->
+	<Map id="2">
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	5	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	3	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	7	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	11	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	11	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	10	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	10	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	9	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	300	</Pos_Y><Skin>	9	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	900	</Pos_Y><Skin>	12	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	2	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	1	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	6	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	8	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	4	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	0	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3600	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3400	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3200	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	3000	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2800	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2600	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2400	</Pos_X><Pos_Y>	1100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2000	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1800	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1600	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1200	</Pos_X><Pos_Y>	1100	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1000	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	800	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	600	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	400	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	200	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	1000	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	800	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	600	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	400	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	0	</Pos_X><Pos_Y>	200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	1400	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+		<Tip><Pos_X>	2200	</Pos_X><Pos_Y>	1200	</Pos_Y><Skin>	13	</Skin></Tip>
+
+		<Wall><S_X>	400	</S_X><S_Y>	400	</S_Y><G_X>	1200	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	400	</S_X><S_Y>	1000	</S_Y><G_X>	400	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	1200	</S_X><S_Y>	1000	</S_Y><G_X>	400	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	1600	</S_X><S_Y>	800	</S_Y><G_X>	1200	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	1200	</S_X><S_Y>	400	</S_Y><G_X>	1600	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	1600	</S_X><S_Y>	600	</S_Y><G_X>	2200	</G_X><G_Y>	600	</G_Y></Wall>
+		<Wall><S_X>	2200	</S_X><S_Y>	800	</S_Y><G_X>	1600	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	2200	</S_X><S_Y>	600	</S_Y><G_X>	2600	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	2600	</S_X><S_Y>	1000	</S_Y><G_X>	2200	</G_X><G_Y>	800	</G_Y></Wall>
+		<Wall><S_X>	3400	</S_X><S_Y>	1000	</S_Y><G_X>	2600	</G_X><G_Y>	1000	</G_Y></Wall>
+		<Wall><S_X>	2600	</S_X><S_Y>	400	</S_Y><G_X>	3400	</G_X><G_Y>	400	</G_Y></Wall>
+		<Wall><S_X>	3400	</S_X><S_Y>	400	</S_Y><G_X>	3400	</G_X><G_Y>	1000	</G_Y></Wall>
+	</Map>
+</data>

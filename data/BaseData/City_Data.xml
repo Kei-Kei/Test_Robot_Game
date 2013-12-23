@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="Shift_JIS"?>
+<data>
+	<City>
+		<Mission>
+			<Num>	0	</Num>		<!--ミッション番号-->
+			<Exp>	0	</Exp>		<!--出現に必要な経験値-->
+		</Mission>
+	</City>
+	
+</data>
